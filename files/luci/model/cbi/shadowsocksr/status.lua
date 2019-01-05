@@ -1,7 +1,7 @@
 -- Copyright (C) 2017 yushi studio <ywb94@qq.com>
 -- Licensed to the public under the GNU General Public License v3.
 
-local IPK_Version="1.2.1"
+local IPK_Version="1.3.1"
 local m, s, o
 local redir_run=0
 local reudp_run=0
@@ -177,7 +177,7 @@ s.value =kcptun_version
 
 s=m:field(DummyValue,"project",translate("Project")) 
 s.rawhtml  = true
-s.value =bold_on .. [[<a href="]] .. "https://github.com/ywb94/openwrt-ssr" .. [[" >]]
-	.. "https://github.com/ywb94/openwrt-ssr" .. [[</a>]] .. bold_off
+s.value =bold_on .. [[<a href="]] .. "https://github.com/xmapst/openwrt-ssr" .. [[" >]]
+	.. "https://github.com/xmapst/openwrt-ssr" .. [[</a>]] .. bold_off
 	
 return m
