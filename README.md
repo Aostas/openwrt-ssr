@@ -152,7 +152,7 @@ GFW版本支持IP路由模式和GFW列表模式，需卸载原有的dnsmasq，�
    protocol       | 字符串     | 传输协议，默认"origin"[详情参考][3]
    protocol_param | 字符串     | 传输协议插件参数(可选)
    obfs           | 字符串     | 混淆插件，默认"plain" [详情参考][3]
-   obfs_param     | 字符串     | 混淆插件参数 [详情参考][3]
+   obfs_param     | 字符串     | 混淆插件参数(可选) [详情参考][3]
    fast_open      | 布尔型     | TCP快速打开 [详情参考][3]
    kcp_enable     | 布尔型     | KcpTun开启开关
    kcp_port       | 数值       | KcpTun服务器端口号, 小于 65535
